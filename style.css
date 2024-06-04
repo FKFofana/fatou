@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* top: 0; */
+}
+
+body{
+    margin: 0px;
+}
+header{
+    
+    background-color: #f66ed8;
+    color: white;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+
+}
+
+header h1{
+   padding: 15px;
+}
+
+nav{
+    
+    position: relative;
+    margin-left: 130vh;
+    right:20px ;
+    bottom: 7vh;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 21px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+#propos{
+    width: 100%;
+    padding: 80px 8%;
+}
+
+
+#propos img{
+    margin-left: 100vh;
+    width: 380px;
+}
+
+
+.simple p{
+    font-size: 20px;
+    margin-top: -55vh;
+    
+}
+
+.simple h2{
+    position: absolute;
+     margin-top: 150px;
+     font-size: 30px;      
+}
+
+#Projets {
+    display: flex;
+    background-color: rgb(218, 255, 210);
+    text-align: center;
+    
+}
+.projet {
+    margin-right: 20px; /* Marge entre les projets */
+}
+
+.projet img {
+    width: 200px; /* Taille des images */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+}
+#Projets h2{
+    text-align: center;
+}
+.sonou h2 p   {
+    text-align: center;
+}
+
+#Compétences h2{
+    text-align: center;
+}
+.comp ul {
+    list-style-type: none; /* Supprimer les puces */
+    padding-left: 0; /* Supprimer le décalage à gauche */
+}
+.lang ul {
+    list-style-type: none; /* Supprimer les puces */
+    padding-left: 0; /* Supprimer le décalage à gauche */
+}
+
+.comp{
+    background-color: rgb(255, 226, 233);
+    text-align: center;
+}
+.lang{
+    background-color:rgb(255, 226, 233);
+    text-align: center;
+
+}
+
+
+
+#Contact h2 {
+    text-align: center;
+}
+
+
+fieldset{
+   position: relative;
+   width: 50%;
+   margin-left: 370px;
+   background-color: #e7e0e0;
+   height: 420px;
+   align-items: center;
+   margin-bottom: 3vh;
+   
+}
+.kine{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.simple img{
+    border-radius: 40%;
+}
+
+button{
+    background-color: rgb(56, 169, 249);
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+.centre{
+    text-align: center;
+
+}
+.centr{
+  text-align: center;
+
+}
+.lien img{
+    width: 3vh;
+	position: relative;
+	left: 80vh;
+	bottom: 4vh; 
+    border-radius: 10px;
+    
+}
+footer{
+    background-color:#f66ed8;
+    text-align: center;
+    padding:4px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+}
+
+
+
